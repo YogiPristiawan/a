@@ -1,10 +1,11 @@
 const moment = require("moment")
+const mmt = require("@c/mmt")
 
 function now() {
   return moment().format()
 }
 
-console.log("aaaaaa")
+console.log(mmt.startDay())
 
 module.exports = {
   now
