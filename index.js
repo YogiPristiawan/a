@@ -4,7 +4,7 @@ function now() {
   return moment().format()
 }
 
-console.log("fewfefef")
+console.log("aaaaaa")
 
 module.exports = {
   now
